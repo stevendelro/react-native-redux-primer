@@ -6,7 +6,7 @@ Built while following along: [The Complete React Native and Redux Course](https:
 
 The "completed" app will display a simple list of popular React related code Libraries. When the user taps on one of the list items, a small animation will display some text that describes that library.
 
-## What did building this app teach me?
+## Here's a few notes that I took mid-project:
 
 * The files that we create to implement Redux are extremely simplified and basic. 
 * I like this because he’s really focusing on the utility of each part of the system at it’s most basic form.
