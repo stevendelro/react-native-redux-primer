@@ -1,4 +1,10 @@
-export default (state, action) => {
-  console.log('Inside SelectionReducer:', action);
-  return null;
+export default (state = null, action) => {
+  const { type, payload } = action;
+
+  switch (type) {
+    case 'select_library':
+      return payload;
+    default:
+      return state;
+  }
 };
